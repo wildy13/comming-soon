@@ -100,6 +100,10 @@ h1,
   }
 }
 
+.mainInfo {
+  width: 100%;
+}
+
 .container .right .mainInfo {
   -webkit-box-flex: 1;
   -ms-flex: 1;
@@ -113,7 +117,7 @@ h1,
 }
 
 .container .right .mainInfo h1 {
-  font-size: 2em;
+  font-size: 3em;
   margin-left: 1em;
 }
 
@@ -240,48 +244,14 @@ button,
   }
 }
 
-.twitter::before {
-  font-family: "Font Awesome 5 Brands";
-  content: "\f099";
-}
-
-.facebook::before {
-  font-family: "Font Awesome 5 Brands";
-  content: "\f09a";
-}
-
-.instagram::before {
-  font-family: "Font Awesome 5 Brands";
-  content: "\f16d";
-}
-
-.github::before {
-  font-family: "Font Awesome 5 Brands";
-  content: "\f09b";
-}
-
-.stackoverflow::before {
-  font-family: "Font Awesome 5 Brands";
-  content: "\f16c";
-}
-
-.youtube::before {
-  font-family: "Font Awesome 5 Brands";
-  content: "\f167";
-}
-
-.medium::before {
-  font-family: "Font Awesome 5 Brands";
-  content: "\f23a";
-}
-
-.linkedin::before {
-  font-family: "Font Awesome 5 Brands";
-  content: "\f08c";
-}
-
 .CSText {
   font-family: 'Pacifico', cursive;
   text-align: center;
   font-size: ;
+}
+
+.footer{
+  width: 100%;
+  text-align: end;
+  font-family: "Lato", sans-serif;
 }
